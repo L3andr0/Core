@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cir", "Cir\Cir.csproj", "{83218576-B045-403C-BD00-D8F2E284B069}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cir", "Cir\Cir.csproj", "{83218576-B045-403C-BD00-D8F2E284B069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirUnitTest", "CirUnitTest\CirUnitTest.csproj", "{3F563459-10A5-4D0B-B7C2-409EACA6F37A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{83218576-B045-403C-BD00-D8F2E284B069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83218576-B045-403C-BD00-D8F2E284B069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83218576-B045-403C-BD00-D8F2E284B069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F563459-10A5-4D0B-B7C2-409EACA6F37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F563459-10A5-4D0B-B7C2-409EACA6F37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F563459-10A5-4D0B-B7C2-409EACA6F37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F563459-10A5-4D0B-B7C2-409EACA6F37A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

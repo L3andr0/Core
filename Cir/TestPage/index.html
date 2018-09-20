@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>-->
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="scripts.js"></script>
+    <style>
+        div{
+            margin: 3px;
+        }
+        a{
+            margin: 5px;
+        }
+        .box {
+            border: 1px solid black;
+            margin: 1px;
+            padding: 1px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="divEdit" class="box">
+        <div>Contrato</div>
+        <div><input type="text" id="txtContrato" /></div>
+        <div>
+            <a href="#" onclick="send()">Enviar</a>
+        </div>
+    </div>
+	
+    <script language="javascript">
+        getCir();
+    </script>
+</body>
+</html>
